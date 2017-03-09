@@ -1,0 +1,172 @@
+/* "Winter Blues" CSS theme for CSS Table Gallery (http://icant.co.uk/csstablegallery/) by Gunta Klavina (http://www.klavina.com) */
+
+/*
+table {font: 80% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;padding: 0; margin: 0; border-collapse: collapse; color: #333; background: #F3F5F7;}
+
+table a {color: #3A4856; text-decoration: none; border-bottom: 1px solid #C6C8CB;}  
+
+table a:visited {color: #777;}
+
+table a:hover {color: #000;}  
+
+table caption {text-align: left; text-transform: uppercase;  padding-bottom: 10px; font: 200% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;}
+
+table thead th {background: #3A4856; padding: 15px 10px; color: #fff; text-align: left; font-weight: normal;}
+
+table tbody, table thead {border-left: 1px solid #EAECEE; border-right: 1px solid #EAECEE;}
+
+table tbody {border-bottom: 1px solid #EAECEE;}
+                      
+table tbody td, table tbody th {padding: 10px; background: url("td_back.gif") repeat-x; text-align: left;}
+
+table tbody tr {background: #F3F5F7;}
+
+table tbody tr.odd {background: #F0F2F4;}
+
+table tbody  tr:hover {background: #EAECEE; color: #111;}
+
+table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif; text-transform: uppercase; background: #fff; padding: 10px;}
+
+*/
+
+
+
+body {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Segoe UI, Trebuchet MS, verdana, Arial, sans-serif;
+}
+.menu {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: center;
+    width: 75%;
+    padding: .2em 0 .2em 0;
+}
+
+#center {
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    margin-left: -250px;
+    margin-top: -350px;
+
+
+}
+
+
+
+form label {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+form label input[type=text], input[type=date], input[type=number] {
+    width: 100%;
+    padding: 5px 0px;
+    outline: none;
+}
+form label textarea {
+    width: 100%;
+    resize: none;
+}
+form label select {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+
+
+}
+
+form label input[type=email],input[type=tel]{
+    width: 100%;
+    padding: 5px 0px; 
+    
+}
+
+
+form input[type=submit] {
+    background: #303e4c;
+    padding: 15px 10px;
+    border: 1px solid #222c35;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+
+}
+form input[type=submit]:hover {
+    background: #232c35;
+    border: 1px solid #151b21;
+}
+
+
+
+
+table{width:100%;
+	margin:0;
+	padding:0;
+	font-family:"Trebuchet MS",Trebuchet,Arial,sans-serif;
+	color:#1c5d79}table,td,th,tr{border-collapse:collapse}
+
+	caption{margin:0;padding:0;
+		background:#f3f3f3;
+		height:40px;
+		line-height:40px;
+		text-indent:28px;font-family:"Trebuchet MS",Trebuchet,Arial,sans-serif;
+		font-size:14px;font-weight:700;
+		color:#555d6d;
+		text-align:left;
+		letter-spacing:3px;border-top:dashed 1px #c2c2c2;
+		border-bottom:dashed 1px #c2c2c2}
+
+		thead{background-color:#FFF;border:none}
+		
+		thead tr th{height:32px;
+			line-height:32px;
+			text-align:center;
+			color:##1c5d79;
+			background-image:url(col_bg_new.gif);
+			background-repeat:repeat-x;border-left:solid 1px #F90;
+			border-right:solid 1px #F90;border-collapse:collapse}
+
+			tbody tr{background:#dfedf3;
+				font-size:13px}
+
+				tbody tr.odd{background:azure}
+				tbody tr.odd:hover,
+				tbody tr:hover{background:#fff}
+				tbody tr td,tbody tr th{padding:6px;
+					border:1px solid #326e87
+					}
+
+
+			tbody tr th{background:#1c5d79
+				;font-family:"Trebuchet MS",Trebuchet,Arial,sans-serif;font-size:12px;
+				padding:6px;text-align:center;
+				font-weight:700;color:#FFF;
+				border-bottom:solid 1px #fff}
+
+			tbody tr :hover{background:#}
+
+			table a{color:#F60;
+				text-decoration:none;
+				font-size:13px;border-bottom:solid 1px #fff}
+
+			table a:hover{color:#F90
+				;border-bottom:none}]
+
+			tfoot{background:#f3f3f3
+				;height:24px;line-height:24px
+				;font-family:"Trebuchet MS",Trebuchet,Arial,sans-serif
+				;font-size:14px;font-weight:700;color:#555d6d;text-align:center
+				;letter-spacing:3px
+				;border-top:solid 2px #326e87
+				;border-bottom:dashed 1px #c2c2c2}
+
+			tfoot tr th{border-top:solid 1px #326e87}
+
+			tfoot tr td{text-align:right}
